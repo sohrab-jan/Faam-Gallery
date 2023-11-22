@@ -1,0 +1,178 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class FrameAssetsSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        DB::table('frame_assets')->insert([
+            [
+                'name' => 'A515',
+                'side' => '/assets/img/New Patterns/A515-pattern.png',
+                'face' => '/assets/img/New Moulding/A515.png',
+                'alt' => '',
+                'wide' => 30,
+                'deep' => 15,
+                'pm' => 3.17 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A513',
+                'side' => '/assets/img/New Patterns/A513-pattern.png',
+                'face' => '/assets/img/New Moulding/A513.png',
+                'alt' => '',
+                'wide' => 30,
+                'deep' => 15,
+                'pm' => 3.17 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A529',
+                'side' => '/assets/img/New Patterns/A529-pattern.png',
+                'face' => '/assets/img/New Moulding/A529.png',
+                'alt' => '',
+                'wide' => 40,
+                'deep' => 30,
+                'pm' => 8.56 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A526',
+                'side' => '/assets/img/New Patterns/A526-pattern.png',
+                'face' => '/assets/img/New Moulding/A526.png',
+                'alt' => '',
+                'wide' => 40,
+                'deep' => 30,
+                'pm' => 8.56 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A524',
+                'side' => '/assets/img/New Patterns/A524-pattern.png',
+                'face' => '/assets/img/New Moulding/A524.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 3.50 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A521',
+                'side' => '/assets/img/New Patterns/A521-pattern.png',
+                'face' => '/assets/img/New Moulding/A521.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 3.50 * 7,
+                'picture' => 'black',
+            ],
+            [
+                'name' => 'A514',
+                'side' => '/assets/img/New Patterns/A514-pattern.png',
+                'face' => '/assets/img/New Moulding/A514.png',
+                'alt' => '',
+                'wide' => 30,
+                'deep' => 15,
+                'pm' => 3.17 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'A512',
+                'side' => '/assets/img/New Patterns/A512-pattern.png',
+                'face' => '/assets/img/New Moulding/A512.png',
+                'alt' => '',
+                'wide' => 30,
+                'deep' => 15,
+                'pm' => 3.17 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'A528',
+                'side' => '/assets/img/New Patterns/A528-pattern.png',
+                'face' => '/assets/img/New Moulding/A528.png',
+                'alt' => '',
+                'wide' => 40,
+                'deep' => 30,
+                'pm' => 8.56 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'A525',
+                'side' => '/assets/img/New Patterns/A525-pattern.png',
+                'face' => '/assets/img/New Moulding/A525.png',
+                'alt' => '',
+                'wide' => 40,
+                'deep' => 30,
+                'pm' => 8.56 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'A523',
+                'side' => '/assets/img/New Patterns/A523-pattern.png',
+                'face' => '/assets/img/New Moulding/A523.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 3.5 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'A520',
+                'side' => '/assets/img/New Patterns/A520-pattern.png',
+                'face' => '/assets/img/New Moulding/A520.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 3.5 * 7,
+                'picture' => 'white',
+            ],
+            [
+                'name' => 'AL2650',
+                'side' => '/assets/img/New Patterns/AL2650-pattern.png',
+                'face' => '/assets/img/New Moulding/AL2650.png',
+                'alt' => '',
+                'wide' => 37,
+                'deep' => 20,
+                'pm' => 5.00 * 7,
+                'picture' => 'wood',
+            ],
+            [
+                'name' => 'AL2496',
+                'side' => '/assets/img/New Patterns/AL2496-pattern.png',
+                'face' => '/assets/img/New Moulding/AL2496.png',
+                'alt' => '',
+                'wide' => 25,
+                'deep' => 22,
+                'pm' => 3.17 * 7,
+                'picture' => 'wood',
+            ],
+            [
+                'name' => 'AL3028',
+                'side' => '/assets/img/New Patterns/AL3028-pattern.png',
+                'face' => '/assets/img/New Moulding/AL3028.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 4.00 * 7,
+                'picture' => 'wood',
+            ],
+            [
+                'name' => 'AL2956',
+                'side' => '/assets/img/New Patterns/AL2956-pattern.png',
+                'face' => '/assets/img/New Moulding/AL2956.png',
+                'alt' => '',
+                'wide' => 22,
+                'deep' => 22,
+                'pm' => 4.00 * 7,
+                'picture' => 'wood',
+            ],
+        ]);
+    }
+}
